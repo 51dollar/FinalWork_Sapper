@@ -8,4 +8,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Sprites\tiles.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sprites\tiles.png" />
+  </ItemGroup>
+
 </Project>

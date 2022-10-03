@@ -1,3 +1,6 @@
+using System.Diagnostics.PerformanceData;
+using FinalWork_Sapper.Controllers;
+
 namespace FinalWork_Sapper
 {
     public partial class Form1 : Form
@@ -5,6 +8,8 @@ namespace FinalWork_Sapper
         public Form1()
         {
             InitializeComponent();
+
+            MapController.Init(this);
         }
     }
 }
