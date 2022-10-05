@@ -117,15 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>152, 17</value>
-  </metadata>
-  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>356, 17</value>
-  </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Цель игры - открыть все поле, кроме спрятанных на нем тыквобомб. Клик левой кнопкой мыши по любой клетке поля позволяет открыть  ее. С помощью клика правой кнопкой мыши можно можно поставить флажок, если вы уверены, что в этой клетке тыквобомба, или нарисовать знак вопроса, если вы все еще сомневаетесь.
+Число в клетке означает, что где-то в соседней клетке спрятана тыквобомба. Если это "один" - в одной из клеток, которые касаются этой своей стороной или углом, есть тыквобомба. Если "два" - то в двух клетках, три - в трех, и так далее. Отмечайте флажком заминированные клетки, и открывайте те, что считаете безопасными. И так до самого конца, пока все поле не будет безопасно. Удачи!</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

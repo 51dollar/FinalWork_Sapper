@@ -49,5 +49,17 @@ namespace Miner
         {
             MapController.Restart();
         }
+
+        private void RulesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tutorial nextForm = new Tutorial();
+            nextForm.ShowDialog();
+        }
+
+        private void PlotToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Plot nextForm = new Plot();
+            nextForm.ShowDialog();
+        }
     }
 }
