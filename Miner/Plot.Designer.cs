@@ -64,9 +64,9 @@
             this.button_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button_back.Location = new System.Drawing.Point(236, 366);
             this.button_back.Name = "button_back";
-            this.button_back.Size = new System.Drawing.Size(84, 32);
+            this.button_back.Size = new System.Drawing.Size(89, 32);
             this.button_back.TabIndex = 4;
-            this.button_back.Text = "НАЗАД";
+            this.button_back.Text = "НАЧАТЬ";
             this.button_back.UseVisualStyleBackColor = false;
             this.button_back.Click += new System.EventHandler(this.button_back_Click);
             // 

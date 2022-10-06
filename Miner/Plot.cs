@@ -19,6 +19,9 @@ namespace Miner
 
         private void button_back_Click(object sender, EventArgs e)
         {
+            Form1 nextForm = new Form1();
+            this.Hide();
+            nextForm.ShowDialog();
             this.Close();
         }
     }

@@ -118,8 +118,6 @@ namespace Miner.Controllers
                 ShowAllBombs(iButton,jButton);
                 MessageBox.Show("Поражение!");
                 Restart();
-                //form.Controls.Clear();
-                //Init(form);
             }
         }
 

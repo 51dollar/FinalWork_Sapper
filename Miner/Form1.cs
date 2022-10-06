@@ -23,11 +23,12 @@ namespace Miner
             LoadImages();
             MapController.GetImage = getImage;
             MapController.Init(this);
+            TimerStart();
         }
         private void ConfigureMapSize()
         {
             Width = MapController.mapSize * MapController.cellSize + 20;
-            Height = (MapController.mapSize + 1) * MapController.cellSize + 15;
+            Height = (MapController.mapSize + 1) * MapController.cellSize + 15 + 95;
         }
         private void AProggramToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -48,6 +49,9 @@ namespace Miner
         private void ResetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MapController.Restart();
+            TimerStop();
+            TimerStart();
+            CountStart();
         }
 
         private void RulesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +64,43 @@ namespace Miner
         {
             Plot nextForm = new Plot();
             nextForm.ShowDialog();
+        }
+
+        //Code for the game timer
+        private int seconds = 0;
+        private const int timeLimit = 5999;
+        public void TimerStart()
+        {
+            lblSeconds.Text = "0";
+            lblMinutes.Text = "0";
+            seconds = 0;
+            gameTimer.Start();
+        }
+
+        private void gameTimer_Tick(object sender, EventArgs e)
+        {
+            CountStart();
+        }
+
+        public void CountStart()
+        {
+            seconds++;
+            int secondsDisplay = seconds % 60;
+            lblSeconds.Text = secondsDisplay.ToString();
+            if ((seconds / 60) > 0)
+            {
+                lblMinutes.Text = (seconds / 60).ToString();
+            }
+
+            if (seconds >= timeLimit)
+            {
+                TimerStop();
+            }
+        }
+
+        public void TimerStop()
+        {
+            gameTimer.Stop();
         }
     }
 }
