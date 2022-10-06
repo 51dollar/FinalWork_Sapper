@@ -72,13 +72,13 @@
             // 
             this.NewGameToolStripMenuItem.Name = "NewGameToolStripMenuItem";
             this.NewGameToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.NewGameToolStripMenuItem.Text = "Новая игра";
             // 
             // ResetToolStripMenuItem
             // 
             this.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem";
-            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.ResetToolStripMenuItem.Text = "Начать заново";
             this.ResetToolStripMenuItem.Click += new System.EventHandler(this.ResetToolStripMenuItem_Click);
             // 
@@ -95,13 +95,13 @@
             // HardToolStripMenuItem
             // 
             this.HardToolStripMenuItem.Name = "HardToolStripMenuItem";
-            this.HardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.HardToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.HardToolStripMenuItem.Text = "Сложность";
             // 
             // HandSettingsToolStripMenuItem
             // 
             this.HandSettingsToolStripMenuItem.Name = "HandSettingsToolStripMenuItem";
-            this.HandSettingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.HandSettingsToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.HandSettingsToolStripMenuItem.Text = "Ручные настройки";
             // 
             // AboutToolStripMenuItem
@@ -118,21 +118,21 @@
             // AProggramToolStripMenuItem
             // 
             this.AProggramToolStripMenuItem.Name = "AProggramToolStripMenuItem";
-            this.AProggramToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AProggramToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.AProggramToolStripMenuItem.Text = "О программе";
             this.AProggramToolStripMenuItem.Click += new System.EventHandler(this.AProggramToolStripMenuItem_Click);
             // 
             // PlotToolStripMenuItem
             // 
             this.PlotToolStripMenuItem.Name = "PlotToolStripMenuItem";
-            this.PlotToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PlotToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.PlotToolStripMenuItem.Text = "Сюжет";
             this.PlotToolStripMenuItem.Click += new System.EventHandler(this.PlotToolStripMenuItem_Click);
             // 
             // RulesToolStripMenuItem
             // 
             this.RulesToolStripMenuItem.Name = "RulesToolStripMenuItem";
-            this.RulesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.RulesToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.RulesToolStripMenuItem.Text = "Правила";
             this.RulesToolStripMenuItem.Click += new System.EventHandler(this.RulesToolStripMenuItem_Click);
             // 

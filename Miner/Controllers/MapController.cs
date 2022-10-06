@@ -117,8 +117,9 @@ namespace Miner.Controllers
             {
                 ShowAllBombs(iButton,jButton);
                 MessageBox.Show("Поражение!");
-                form.Controls.Clear();
-                Init(form);
+                Restart();
+                //form.Controls.Clear();
+                //Init(form);
             }
         }
 

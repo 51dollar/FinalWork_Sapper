@@ -31,7 +31,7 @@ namespace Miner
         }
         private void AProggramToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Игра сапер. Разработана командой #4: Игорь, Дмитрий, Иван");
+            MessageBox.Show("Игра сапер. Разработана командой #4: Игорь, Дмитрий, Иван","О программе");
         }
         private void LoadImages()
         {
