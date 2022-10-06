@@ -1,0 +1,38 @@
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\bin\Debug\Miner.exe.config
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\bin\Debug\Miner.exe
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\bin\Debug\Miner.pdb
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.csproj.AssemblyReference.cache
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.csproj.SuggestedBindingRedirects.cache
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.Form1.resources
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.Properties.Resources.resources
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.csproj.GenerateResource.cache
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.csproj.CoreCompileInputs.cache
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.exe
+C:\Users\37544\OneDrive\Рабочий стол\Miner-master\Miner\obj\Debug\Miner.pdb
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\bin\Debug\Miner.exe.config
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\bin\Debug\Miner.exe
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\bin\Debug\Miner.pdb
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.csproj.AssemblyReference.cache
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.csproj.SuggestedBindingRedirects.cache
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.Form1.resources
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.Properties.Resources.resources
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.csproj.GenerateResource.cache
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.csproj.CoreCompileInputs.cache
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.exe
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.pdb
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.Tutorial.resources
+C:\IGOR FILES\TRAININGS\C# - IT ACADEMY\ФИНАЛЬНАЯ РАБОТА\Miner-master\Miner\obj\Debug\Miner.Plot.resources
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\bin\Debug\Miner.exe.config
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\bin\Debug\Miner.exe
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\bin\Debug\Miner.pdb
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.csproj.AssemblyReference.cache
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.csproj.SuggestedBindingRedirects.cache
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.Form1.resources
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.Plot.resources
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.Properties.Resources.resources
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.Tutorial.resources
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.csproj.GenerateResource.cache
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.csproj.CoreCompileInputs.cache
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.exe
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.pdb
+C:\Users\37544\Downloads\FinalWork_Sapper-Ivan_prototype\Miner\obj\Debug\Miner.FormSettings.resources
