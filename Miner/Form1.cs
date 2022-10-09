@@ -24,6 +24,7 @@ namespace Miner
             MapController.GetImage = getImage;
             InitField();
             TimerStart();
+            MonitorFlags.Start();
         }
 
         private void ConfigureMapSize()
@@ -45,7 +46,7 @@ namespace Miner
             if (Controls.Count > 1)
             {
                 for (int i = 0; i < MapController.buttons.Length; i++)
-                    Controls.RemoveAt(2);
+                    Controls.RemoveAt(3);
             }
         }
 
@@ -101,6 +102,7 @@ namespace Miner
             Plot nextForm = new Plot();
             nextForm.ShowDialog();
         }
+
         //Code for the game timer
         private int seconds = 0;
         private const int timeLimit = 5999;
@@ -136,6 +138,11 @@ namespace Miner
         public void TimerStop()
         {
             gameTimer.Stop();
+        }
+
+        private void MonitorFlags_Tick(object sender, EventArgs e)
+        {
+            lblFlags.Text = MapController.CountFlags().ToString();
         }
     }
 }

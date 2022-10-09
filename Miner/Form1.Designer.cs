@@ -47,8 +47,13 @@
             this.lblSeconds = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblFlags = new System.Windows.Forms.Label();
+            this.MonitorFlags = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -60,7 +65,8 @@
             this.AboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1121, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(897, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,21 +76,21 @@
             this.NewGameToolStripMenuItem,
             this.ResetToolStripMenuItem});
             this.GameToolStripMenuItem.Name = "GameToolStripMenuItem";
-            this.GameToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.GameToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.GameToolStripMenuItem.Text = "Игра";
             // 
             // NewGameToolStripMenuItem
             // 
             this.NewGameToolStripMenuItem.Name = "NewGameToolStripMenuItem";
             this.NewGameToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.NewGameToolStripMenuItem.Text = "Новая игра";
             this.NewGameToolStripMenuItem.Click += new System.EventHandler(this.NewGameToolStripMenuItem_Click);
             // 
             // ResetToolStripMenuItem
             // 
             this.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem";
-            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.ResetToolStripMenuItem.Text = "Начать заново";
             this.ResetToolStripMenuItem.Click += new System.EventHandler(this.ResetToolStripMenuItem_Click);
             // 
@@ -94,13 +100,13 @@
             this.HardToolStripMenuItem});
             this.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem";
             this.SettingsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.SettingsToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.SettingsToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.SettingsToolStripMenuItem.Text = "Настройки";
             // 
             // HardToolStripMenuItem
             // 
             this.HardToolStripMenuItem.Name = "HardToolStripMenuItem";
-            this.HardToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.HardToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.HardToolStripMenuItem.Text = "Сложность";
             this.HardToolStripMenuItem.Click += new System.EventHandler(this.HardToolStripMenuItem_Click);
             // 
@@ -111,20 +117,20 @@
             this.RulesToolStripMenuItem});
             this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
             this.AboutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.AboutToolStripMenuItem.Text = "Справка";
             // 
             // AProggramToolStripMenuItem
             // 
             this.AProggramToolStripMenuItem.Name = "AProggramToolStripMenuItem";
-            this.AProggramToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.AProggramToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.AProggramToolStripMenuItem.Text = "О программе";
             this.AProggramToolStripMenuItem.Click += new System.EventHandler(this.AProggramToolStripMenuItem_Click);
             // 
             // RulesToolStripMenuItem
             // 
             this.RulesToolStripMenuItem.Name = "RulesToolStripMenuItem";
-            this.RulesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.RulesToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.RulesToolStripMenuItem.Text = "Правила";
             this.RulesToolStripMenuItem.Click += new System.EventHandler(this.RulesToolStripMenuItem_Click);
             // 
@@ -138,10 +144,9 @@
             // 
             this.lblMinutes.AutoSize = true;
             this.lblMinutes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblMinutes.Location = new System.Drawing.Point(22, 56);
-            this.lblMinutes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMinutes.Location = new System.Drawing.Point(18, 45);
             this.lblMinutes.Name = "lblMinutes";
-            this.lblMinutes.Size = new System.Drawing.Size(29, 31);
+            this.lblMinutes.Size = new System.Drawing.Size(24, 25);
             this.lblMinutes.TabIndex = 1;
             this.lblMinutes.Text = "0";
             // 
@@ -154,10 +159,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(60, 56);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(48, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 31);
+            this.label2.Size = new System.Drawing.Size(18, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = ":";
             // 
@@ -165,10 +169,9 @@
             // 
             this.lblSeconds.AutoSize = true;
             this.lblSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSeconds.Location = new System.Drawing.Point(90, 56);
-            this.lblSeconds.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSeconds.Location = new System.Drawing.Point(72, 45);
             this.lblSeconds.Name = "lblSeconds";
-            this.lblSeconds.Size = new System.Drawing.Size(29, 31);
+            this.lblSeconds.Size = new System.Drawing.Size(24, 25);
             this.lblSeconds.TabIndex = 3;
             this.lblSeconds.Text = "0";
             // 
@@ -176,10 +179,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(15, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 29);
+            this.label1.Size = new System.Drawing.Size(84, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Таймер";
             // 
@@ -190,22 +192,56 @@
             this.panel1.Controls.Add(this.lblMinutes);
             this.panel1.Controls.Add(this.lblSeconds);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(15, 539);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(12, 431);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(136, 106);
+            this.panel1.Size = new System.Drawing.Size(109, 85);
             this.panel1.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.lblFlags);
+            this.panel2.Location = new System.Drawing.Point(278, 431);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(109, 85);
+            this.panel2.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(12, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 24);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "ФЛАГИ";
+            // 
+            // lblFlags
+            // 
+            this.lblFlags.AutoSize = true;
+            this.lblFlags.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblFlags.Location = new System.Drawing.Point(43, 45);
+            this.lblFlags.Name = "lblFlags";
+            this.lblFlags.Size = new System.Drawing.Size(24, 25);
+            this.lblFlags.TabIndex = 1;
+            this.lblFlags.Text = "0";
+            // 
+            // MonitorFlags
+            // 
+            this.MonitorFlags.Tick += new System.EventHandler(this.MonitorFlags_Tick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(1121, 711);
+            this.ClientSize = new System.Drawing.Size(897, 569);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -214,6 +250,8 @@
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,6 +276,10 @@
         private System.Windows.Forms.Label lblSeconds;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblFlags;
+        private System.Windows.Forms.Timer MonitorFlags;
     }
 }
 

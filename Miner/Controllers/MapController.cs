@@ -53,7 +53,9 @@ namespace Miner.Controllers
                 {
                     buttons[i, j].Enabled = true;
                     buttons[i, j].Image = GetImage(3);
+                    buttons[i, j].BackColor = Color.White;
                 }
+
             }
         }
         private static void OnButtonPressedMouse(object sender, MouseEventArgs e)
@@ -84,6 +86,7 @@ namespace Miner.Controllers
 
         private static void OnLeftButtonPressed(Button pressedButton)
         {
+            pressedButton.BackColor = Color.White;
             pressedButton.Enabled = false;
             int iButton = pressedButton.Location.Y / cellSize;
             int jButton = pressedButton.Location.X / cellSize;
@@ -104,6 +107,7 @@ namespace Miner.Controllers
 
             if (CheckFinish())
             {
+                ShowAllBombs(iButton, jButton);
                 MessageBox.Show("Победа!");
             }
         }
@@ -233,6 +237,24 @@ namespace Miner.Controllers
             return true;
         }
 
+        public static int CountFlags()
+        {
+            int flagCount = 0;
+
+            for (int i = 0; i < mapSize; i++)
+            {
+                for (int j = 0; j < mapSize; j++)
+                {
+                    if (buttons[i, j].BackColor == Color.Red)
+                    {
+                        flagCount++;
+                    }  
+                }
+            }
+            
+            return flagCount;
+        }
+
         private static bool CheckFinish()
         {
             int countLeft = 0;
@@ -241,8 +263,7 @@ namespace Miner.Controllers
             {
                 for (int j = 0; j < mapSize; j++)
                 {
-
-                    if (buttons[i, j].Enabled )
+                    if (buttons[i, j].Enabled)
                     {
                         countLeft++;
                     }
