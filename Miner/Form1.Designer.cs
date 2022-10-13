@@ -46,14 +46,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblSeconds = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel_timer = new System.Windows.Forms.Panel();
+            this.panel_flags = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.lblFlags = new System.Windows.Forms.Label();
             this.MonitorFlags = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.panel_timer.SuspendLayout();
+            this.panel_flags.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -185,27 +185,27 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Таймер";
             // 
-            // panel1
+            // panel_timer
             // 
-            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.lblMinutes);
-            this.panel1.Controls.Add(this.lblSeconds);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(12, 431);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(109, 85);
-            this.panel1.TabIndex = 5;
+            this.panel_timer.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel_timer.Controls.Add(this.label1);
+            this.panel_timer.Controls.Add(this.lblMinutes);
+            this.panel_timer.Controls.Add(this.lblSeconds);
+            this.panel_timer.Controls.Add(this.label2);
+            this.panel_timer.Location = new System.Drawing.Point(12, 27);
+            this.panel_timer.Name = "panel_timer";
+            this.panel_timer.Size = new System.Drawing.Size(109, 85);
+            this.panel_timer.TabIndex = 5;
             // 
-            // panel2
+            // panel_flags
             // 
-            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.lblFlags);
-            this.panel2.Location = new System.Drawing.Point(278, 431);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(109, 85);
-            this.panel2.TabIndex = 6;
+            this.panel_flags.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel_flags.Controls.Add(this.label3);
+            this.panel_flags.Controls.Add(this.lblFlags);
+            this.panel_flags.Location = new System.Drawing.Point(211, 27);
+            this.panel_flags.Name = "panel_flags";
+            this.panel_flags.Size = new System.Drawing.Size(109, 85);
+            this.panel_flags.TabIndex = 6;
             // 
             // label3
             // 
@@ -237,8 +237,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(897, 569);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel_flags);
+            this.Controls.Add(this.panel_timer);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -248,10 +248,10 @@
             this.Text = "HalloweenSapper";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.panel_timer.ResumeLayout(false);
+            this.panel_timer.PerformLayout();
+            this.panel_flags.ResumeLayout(false);
+            this.panel_flags.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,8 +275,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblSeconds;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel_timer;
+        private System.Windows.Forms.Panel panel_flags;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblFlags;
         private System.Windows.Forms.Timer MonitorFlags;

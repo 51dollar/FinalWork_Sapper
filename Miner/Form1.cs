@@ -19,10 +19,14 @@ namespace Miner
         public Form1()
         {
             InitializeComponent();
+            MapController.difficulty = 10;
             ConfigureMapSize();
             LoadImages();
             MapController.GetImage = getImage;
             InitField();
+            
+            panel_timer.Location = new Point(12, Height - 130);
+            panel_flags.Location = new Point(211, Height - 130);
             TimerStart();
             MonitorFlags.Start();
         }
@@ -30,7 +34,7 @@ namespace Miner
         private void ConfigureMapSize()
         {
             Width = MapController.mapSize * MapController.cellSize + 20;
-            Height = (MapController.mapSize + 1) * MapController.cellSize + 15 + 95;
+            Height = (MapController.mapSize + 1) * MapController.cellSize + 15 + 110;
         }
 
         private void NewGameToolStripMenuItem_Click(object sender, EventArgs e)
@@ -144,5 +148,6 @@ namespace Miner
         {
             lblFlags.Text = MapController.CountFlags().ToString();
         }
+
     }
 }

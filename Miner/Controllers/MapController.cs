@@ -13,7 +13,8 @@ namespace Miner.Controllers
     {
         public delegate Image ReturnImage(int i);
         public static ReturnImage GetImage;
-        public const int mapSize = 8;
+        public static int difficulty = 8;
+        public static int mapSize = difficulty;
         internal const int cellSize = 50;
 
         public static int[,] map = new int[mapSize, mapSize];
@@ -74,20 +75,20 @@ namespace Miner.Controllers
 
         private static void OnRightButtonPressed(Button pressedButton)
         {
-            if(pressedButton.BackColor == Color.Red)
+            if(pressedButton.BackColor == Color.Coral)
             {
                 pressedButton.Image = GetImage(3);
                 pressedButton.BackColor = Color.White;
                 return;
             }
             pressedButton.Image = GetImage(0);
-            pressedButton.BackColor = Color.Red;
+            pressedButton.BackColor = Color.Coral;
         }
 
         private static void OnLeftButtonPressed(Button pressedButton)
         {
-            pressedButton.BackColor = Color.White;
             pressedButton.Enabled = false;
+            //pressedButton.BackColor = Color.White;
             int iButton = pressedButton.Location.Y / cellSize;
             int jButton = pressedButton.Location.X / cellSize;
             if (isFirstStep)
@@ -245,7 +246,7 @@ namespace Miner.Controllers
             {
                 for (int j = 0; j < mapSize; j++)
                 {
-                    if (buttons[i, j].BackColor == Color.Red)
+                    if (buttons[i, j].BackColor == Color.Coral)
                     {
                         flagCount++;
                     }  
@@ -277,5 +278,6 @@ namespace Miner.Controllers
 
              return false;
         }
+
     }
 }
