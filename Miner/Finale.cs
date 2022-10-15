@@ -10,21 +10,23 @@ using System.Windows.Forms;
 
 namespace Miner
 {
-    public partial class Plot : Form
+    public partial class Finale : Form
     {
-        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-        public Plot()
+        public Finale()
         {
             InitializeComponent();
-            //player.SoundLocation = "theme.wav";
-            //player.PlayLooping();
         }
 
-        private void button_back_Click(object sender, EventArgs e)
+        private void buttonRestart_Click(object sender, EventArgs e)
         {
-            BattleField nextForm = new BattleField(1);
+            Level nextForm = new Level(1);
             this.Hide();
             nextForm.ShowDialog();
+            this.Close();
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
     }

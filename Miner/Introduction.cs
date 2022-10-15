@@ -64,7 +64,7 @@ namespace Miner
 
         private void buttonSkip_Click(object sender, EventArgs e)
         {
-            Level1 nextForm = new Level1();
+            Level nextForm = new Level(1);
             this.Hide();
             nextForm.ShowDialog();
             this.Close();

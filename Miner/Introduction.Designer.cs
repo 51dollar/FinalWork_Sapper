@@ -39,7 +39,7 @@
             // 
             this.buttonBack.BackColor = System.Drawing.Color.PeachPuff;
             this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack.Location = new System.Drawing.Point(216, 474);
+            this.buttonBack.Location = new System.Drawing.Point(207, 425);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(99, 31);
             this.buttonBack.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             this.buttonForward.BackColor = System.Drawing.Color.PeachPuff;
             this.buttonForward.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonForward.Location = new System.Drawing.Point(517, 474);
+            this.buttonForward.Location = new System.Drawing.Point(519, 425);
             this.buttonForward.Name = "buttonForward";
             this.buttonForward.Size = new System.Drawing.Size(99, 31);
             this.buttonForward.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.buttonSkip.BackColor = System.Drawing.Color.PeachPuff;
             this.buttonSkip.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSkip.Location = new System.Drawing.Point(370, 536);
+            this.buttonSkip.Location = new System.Drawing.Point(364, 479);
             this.buttonSkip.Name = "buttonSkip";
             this.buttonSkip.Size = new System.Drawing.Size(107, 29);
             this.buttonSkip.TabIndex = 2;

@@ -47,11 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\MapController.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="BattleField.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BattleField.Designer.cs">
+      <DependentUpon>BattleField.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finale.Designer.cs">
+      <DependentUpon>Finale.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSettings.cs">
       <SubType>Form</SubType>
@@ -65,11 +71,11 @@
     <Compile Include="Introduction.Designer.cs">
       <DependentUpon>Introduction.cs</DependentUpon>
     </Compile>
-    <Compile Include="Level1.cs">
+    <Compile Include="Level.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Level1.Designer.cs">
-      <DependentUpon>Level1.cs</DependentUpon>
+    <Compile Include="Level.Designer.cs">
+      <DependentUpon>Level.cs</DependentUpon>
     </Compile>
     <Compile Include="Plot.cs">
       <SubType>Form</SubType>
@@ -85,8 +91,11 @@
     <Compile Include="Tutorial.Designer.cs">
       <DependentUpon>Tutorial.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="BattleField.resx">
+      <DependentUpon>BattleField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finale.resx">
+      <DependentUpon>Finale.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSettings.resx">
       <DependentUpon>FormSettings.cs</DependentUpon>
@@ -94,8 +103,8 @@
     <EmbeddedResource Include="Introduction.resx">
       <DependentUpon>Introduction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Level1.resx">
-      <DependentUpon>Level1.cs</DependentUpon>
+    <EmbeddedResource Include="Level.resx">
+      <DependentUpon>Level.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Plot.resx">
       <DependentUpon>Plot.cs</DependentUpon>
