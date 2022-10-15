@@ -31,6 +31,8 @@ namespace Miner.Controllers
         public static Form form;
 
         public static event Action Endgame;
+        public static event Action Startgame;
+        public static event Action NextLevel;
 
         internal static void Init()
         {
@@ -77,8 +79,10 @@ namespace Miner.Controllers
                     buttons[i, j].Image = GetImage(3);
                     buttons[i, j].BackColor = Color.White;
                 }
-
             }
+
+            Endgame?.Invoke();
+            Startgame?.Invoke();
         }
         private static void OnButtonPressedMouse(object sender, MouseEventArgs e)
         {
@@ -134,6 +138,7 @@ namespace Miner.Controllers
             {
                 ShowAllBombs(iButton, jButton);
                 MessageBox.Show("Победа!");
+                NextLevel?.Invoke();
             }
         }
 
