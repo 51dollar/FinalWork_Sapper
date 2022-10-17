@@ -85,21 +85,21 @@
             // 
             this.NewGameToolStripMenuItem.Name = "NewGameToolStripMenuItem";
             this.NewGameToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.NewGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.NewGameToolStripMenuItem.Text = "Новая игра";
             this.NewGameToolStripMenuItem.Click += new System.EventHandler(this.NewGameToolStripMenuItem_Click);
             // 
             // ResetToolStripMenuItem
             // 
             this.ResetToolStripMenuItem.Name = "ResetToolStripMenuItem";
-            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.ResetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ResetToolStripMenuItem.Text = "Начать заново";
             this.ResetToolStripMenuItem.Click += new System.EventHandler(this.ResetToolStripMenuItem_Click);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ExitToolStripMenuItem.Text = "Выйти";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -207,14 +207,14 @@
             this.panel_flags.Controls.Add(this.lblFlags);
             this.panel_flags.Location = new System.Drawing.Point(211, 27);
             this.panel_flags.Name = "panel_flags";
-            this.panel_flags.Size = new System.Drawing.Size(109, 85);
+            this.panel_flags.Size = new System.Drawing.Size(148, 85);
             this.panel_flags.TabIndex = 6;
             // 
             // lblBombs
             // 
             this.lblBombs.AutoSize = true;
             this.lblBombs.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblBombs.Location = new System.Drawing.Point(66, 45);
+            this.lblBombs.Location = new System.Drawing.Point(82, 45);
             this.lblBombs.Name = "lblBombs";
             this.lblBombs.Size = new System.Drawing.Size(24, 25);
             this.lblBombs.TabIndex = 6;
@@ -224,7 +224,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(48, 45);
+            this.label4.Location = new System.Drawing.Point(64, 45);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(18, 25);
             this.label4.TabIndex = 5;
@@ -234,17 +234,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(19, 12);
+            this.label3.Location = new System.Drawing.Point(3, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 24);
+            this.label3.Size = new System.Drawing.Size(143, 24);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Флаги";
+            this.label3.Text = "Флаги/Бомбы";
             // 
             // lblFlags
             // 
             this.lblFlags.AutoSize = true;
             this.lblFlags.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblFlags.Location = new System.Drawing.Point(18, 45);
+            this.lblFlags.Location = new System.Drawing.Point(34, 45);
             this.lblFlags.Name = "lblFlags";
             this.lblFlags.Size = new System.Drawing.Size(24, 25);
             this.lblFlags.TabIndex = 1;

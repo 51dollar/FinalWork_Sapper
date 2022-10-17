@@ -189,6 +189,10 @@ namespace Miner
 
             if (stage < 3)
             {
+                MapController.Startgame -= ControlsDelete;
+                MapController.Startgame -= InitField;
+                MapController.Startgame -= TimerStart;
+
                 Level nextForm = new Level(lvl);
                 this.Hide();
                 nextForm.ShowDialog();

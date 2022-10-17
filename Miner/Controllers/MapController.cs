@@ -194,6 +194,7 @@ namespace Miner.Controllers
         private static void OpenCell(int i,int j)
         {
             buttons[i, j].Visible = false;
+            buttons[i, j].BackColor = Color.White;
 
             switch (map[i, j])
             {
